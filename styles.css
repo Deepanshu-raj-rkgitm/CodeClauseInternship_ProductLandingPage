@@ -1,0 +1,125 @@
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Handlee';
+  }
+  
+
+  header {
+    background-color: #FFA500;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  section {
+    padding: 40px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFA500;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #FFA500;
+    color: white;
+  }
+.idk {
+    text-align: center;
+    font-size: larger;
+    background: radial-gradient(ellipse at center, rgba(127,0,173,0.6) 0%,
+    rgba(0,0,0,0.8) 60%, 
+    rgba(0,0,0,1) 90%), 
+    url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/31787/stars.jpg);
+      background-size: cover;
+      z-index:-5;
+      color: white;
+      overflow: hidden;
+    
+}
+
+.orange-text{
+    color: #FFA500;
+}
+.about{
+    font-size: 50px;
+}
+.sodas{
+    text-align: center;
+}
+.left-text{
+    text-align: left;
+}
+.right-text{
+    text-align: right;
+}
+.buy-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFA500;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  .lime-text{
+    color:#32CD32;
+  }
+  .lemon-text{
+    color:#fafa14;
+  }
+  .pineapple-text{
+    color:#FEEA63;
+  }
+  .mango-text{
+    color:	#F4BB44;
+  }
+  .blood-oranges-text{
+    color:#d1001c;
+  }
+  .berry-text{
+    color:#990f4b;
+  }
+  .man-text{
+    color:#f37a48;
+  }
+  .ginger-text{
+    color:#B06500;
+  }
+  .honey-text{
+    color: #EBA937;
+  }
+  .blo-text{
+    color:#DC8052;
+  }
+  .buy-button:hover {
+    background-color:#32CD32 ; }
+.buy-button:visited{
+        background: #B06500;
+    }
+    .cta-button:hover{background-color: #990f4b;}  
